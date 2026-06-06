@@ -15,17 +15,37 @@ so the inferred static type and the runtime validator never drift apart.
 `zod` is a peer dependency — install it alongside the generated output (`zod@^3 || ^4`).
 
 ## Generated schemas
+Each model becomes a `XxxSchema` plus an inferred `type Xxx`. The most natural place to use them
+is the boundary where **untrusted data enters your app** — i.e. the request body you are about to
+send (form input), validated at mutation time:
+
 ```ts
-import { PetSchema, type Pet } from "./models";
+import { NewPetSchema, type NewPet } from "./models";
 
-// runtime-validate an unknown payload
-const pet: Pet = PetSchema.parse(await response.json());
+// validate user/form input before sending it
+const body: NewPet = NewPetSchema.parse(formValues); // or .safeParse for non-throwing
+await api.createPet(body);
+```
 
-// or non-throwing
-const result = PetSchema.safeParse(payload);
-if (!result.success) {
-  // result.error
-}
+It drops straight into react-hook-form…
+
+```ts
+const form = useForm<NewPet>({ resolver: zodResolver(NewPetSchema) });
+```
+
+…and pairs with the generated mutation from
+[`@automatons/typescript-client-react-query`](https://github.com/openapi-automatons/typescript-client-react-query):
+
+```ts
+const { mutate } = useCreatePet();
+const onSubmit = (values: unknown) => mutate([NewPetSchema.parse(values)]);
+```
+
+The same schemas can also be used **defensively on responses** to catch backend / contract drift
+(optional — the generated client already types responses from the spec):
+
+```ts
+const pet = PetSchema.parse(await response.json());
 ```
 
 ## How can I use @automatons/typescript-zod?
