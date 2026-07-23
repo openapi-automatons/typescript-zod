@@ -74,4 +74,21 @@ describe("schemaToZod", () => {
   it("renders free-form objects", () => {
     expect(schemaToZod({type: "object"})).toBe("z.record(z.string(), z.any())");
   });
+
+  it("renders an Xquik search request model", () => {
+    const expr = schemaToZod({
+      type: "object",
+      properties: [
+        {name: "q", required: true, schema: {type: "string", minLength: 1}},
+        {name: "queryType", required: false, schema: {type: "string", enum: ["Latest", "Top"]}},
+        {name: "limit", required: false, schema: {type: "integer", minimum: 1, maximum: 100}},
+        {name: "x-api-key", required: false, schema: {type: "string"}},
+      ],
+    });
+
+    expect(expr).toContain("q: z.string().min(1),");
+    expect(expr).toContain('queryType: z.enum(["Latest", "Top"]).optional(),');
+    expect(expr).toContain("limit: z.number().int().min(1).max(100).optional(),");
+    expect(expr).toContain('"x-api-key": z.string().optional(),');
+  });
 });
