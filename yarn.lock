@@ -46,10 +46,10 @@
     "@automatons/tools" "^2.2.26"
     change-case "^5.4.4"
 
-"@automatons/tools@^2.2.26", "@automatons/tools@^2.2.27":
-  version "2.2.27"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-2.2.27.tgz#8b84bd7d1509937e5857f54a082cccf6443b5669"
-  integrity sha512-hc93qBhyFiGs4sD4ikdpJZY8/u8pvi6B4FvXIdrXoAPMiiV27LXu1rG9FxONkofmA9EHz05DXZoUiQ3avopgVA==
+"@automatons/tools@^2.2.26", "@automatons/tools@^2.2.28":
+  version "2.2.28"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-2.2.28.tgz#4bf2404e43dc32a2cce56703bc50cd922d76f9bb"
+  integrity sha512-DfXu7TEP+09RFikYW8Bbrfjr26J0qudYjNzpcogXoqls7SXiWQZaMjSu7cAeNp0IhVXEP6wkoByOlBRlD1WIuw==
   dependencies:
     js-yaml "^5.2.1"
 
@@ -3283,10 +3283,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
 
-lint-staged@^17.1.1:
-  version "17.1.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-17.1.1.tgz#1cf041f138e10a4fe0356e2f30a013f17d5f1fb2"
-  integrity sha512-FnHWpSe5cPRtrDG+soOuNdBxb4XQb2gN5EqpEWKdweyqyOfpl4QSjbrz3ilcIf0WXmkiNQGZZRQ23R5YtB3TEw==
+lint-staged@^17.2.0:
+  version "17.2.0"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-17.2.0.tgz#b7676a66ea77ae4d24018c12ce9e235ed59b46b8"
+  integrity sha512-FchGnFe4i4B1C/a35SPU9bNGPEHSC1+1iV0plLjzBmKVe9klZrlRfSgK6Cw4VeHyqOXbJUXP0vON61uRftNQ0A==
   dependencies:
     picomatch "^4.0.5"
     string-argv "^0.3.2"
