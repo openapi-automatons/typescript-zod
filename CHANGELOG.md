@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.3...v1.0.4) (2026-07-27)
+
+
+### Bug Fixes
+
+* **deps:** bump @[secure]/tools from 2.2.28 to 2.2.33 ([#87](https://github.com/[secure]-[secure]/typescript-zod/issues/87)) ([8b0e973](https://github.com/[secure]-[secure]/typescript-zod/commit/8b0e9731de7b3ab0c435340a16ab2b10b3c045b0))
+
 ## [1.0.3](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.2...v1.0.3) (2026-07-27)
 
 
