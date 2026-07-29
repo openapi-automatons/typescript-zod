@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.6...v1.0.7) (2026-07-29)
+
+
+### Bug Fixes
+
+* **deps:** bump @[secure]/parser from 1.2.51 to 1.2.52 ([#92](https://github.com/[secure]-[secure]/typescript-zod/issues/92)) ([9813dcb](https://github.com/[secure]-[secure]/typescript-zod/commit/9813dcb99cc84a6269dd142ba8458b6faf8fd36e))
+
 ## [1.0.6](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.5...v1.0.6) (2026-07-28)
 
 
