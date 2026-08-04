@@ -1,3 +1,10 @@
+## [1.0.10](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.9...v1.0.10) (2026-08-04)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump lint-staged from 17.2.0 to 17.3.0 ([#95](https://github.com/[secure]-[secure]/typescript-zod/issues/95)) ([8e978ae](https://github.com/[secure]-[secure]/typescript-zod/commit/8e978ae550c9dc7dcb39b0c70c913338a245a420))
+
 ## [1.0.9](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.8...v1.0.9) (2026-07-30)
 
 
