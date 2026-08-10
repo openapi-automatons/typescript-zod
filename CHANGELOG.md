@@ -1,3 +1,11 @@
+## [1.0.13](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.12...v1.0.13) (2026-08-10)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump semantic-release from 25.0.8 to 25.0.9 ([#99](https://github.com/[secure]-[secure]/typescript-zod/issues/99)) ([80eed18](https://github.com/[secure]-[secure]/typescript-zod/commit/80eed1878e381dbd594996f33656796548878312))
+* **deps:** bump @[secure]/tools from 2.2.37 to 2.2.38 ([#100](https://github.com/[secure]-[secure]/typescript-zod/issues/100)) ([b893032](https://github.com/[secure]-[secure]/typescript-zod/commit/b893032d9c9dbd78d45320091d50e7946512acda))
+
 ## [1.0.12](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.11...v1.0.12) (2026-08-07)
 
 
