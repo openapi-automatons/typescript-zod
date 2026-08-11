@@ -46,10 +46,10 @@
     "@automatons/tools" "^2.2.35"
     change-case "^5.4.4"
 
-"@automatons/tools@^2.2.35", "@automatons/tools@^2.2.38":
-  version "2.2.38"
-  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-2.2.38.tgz#a6d5369ca399ead6a8c8f05c2fd80ec6866f83fe"
-  integrity sha512-EBJuRjdWxHLB6PYhZrZdz7pyNQETvBmo/dDBx4Df47iHrufnyjapRMNzxniZGrg7TVIuRF1seUnJENXKebLSlA==
+"@automatons/tools@^2.2.35", "@automatons/tools@^2.2.39":
+  version "2.2.39"
+  resolved "https://registry.yarnpkg.com/@automatons/tools/-/tools-2.2.39.tgz#3571af5a3b4dfcd1cd48da2adde4bc3997b012ea"
+  integrity sha512-wwHOsWvY8VvW2olYId6QFKEmq2XyOAilCy41i0Zl0/NHjZ4+PwNWIIuFQuGdFQLDq2sb1cJzdBeIi53PO/10hw==
   dependencies:
     js-yaml "^5.2.3"
 
@@ -1214,10 +1214,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.5.tgz#1001cc5e6a3704b83c236027e77f2f58ea010f40"
   integrity sha512-Klz949h02Gz2uZCMGwDUSDS1YBlTdDDgbWHi+81l29tQALUtvz4rAYi5uoVhE5Lagoq6DeqAUlbrHvW/mXDgdQ==
 
-"@types/node@^26.1.2":
-  version "26.1.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.1.2.tgz#da79708f1f9c6294f4cdec8f455a3032b028808a"
-  integrity sha512-Vu4a5UFA9rIIFJ7rB/Vaafh9lrCQszopTCx6KjFboXTGQbPNasehVR5TEiithSDGyd1DEiUByggTZsg8jukeIg==
+"@types/node@^26.2.0":
+  version "26.2.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.2.0.tgz#5a4875a862fda8fdc57de8faa579bb81ecba1685"
+  integrity sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==
   dependencies:
     undici-types "~8.3.0"
 
