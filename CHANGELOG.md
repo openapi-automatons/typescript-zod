@@ -1,3 +1,11 @@
+## [1.0.16](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.15...v1.0.16) (2026-08-14)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump typescript-eslint from 8.66.0 to 8.67.0 ([#106](https://github.com/[secure]-[secure]/typescript-zod/issues/106)) ([9f8d80f](https://github.com/[secure]-[secure]/typescript-zod/commit/9f8d80fef6a415c99bcae4b0c2eecd72596b1da2))
+* **deps:** bump @[secure]/parser from 1.2.56 to 1.2.58 ([#107](https://github.com/[secure]-[secure]/typescript-zod/issues/107)) ([4882b69](https://github.com/[secure]-[secure]/typescript-zod/commit/4882b69171b73ee72e6b05a39dbb74cea970a08d))
+
 ## [1.0.15](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.14...v1.0.15) (2026-08-11)
 
 
