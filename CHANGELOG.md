@@ -1,3 +1,11 @@
+## [1.0.17](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.16...v1.0.17) (2026-08-17)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @commitlint/cli from 21.2.1 to 21.2.2 ([#108](https://github.com/[secure]-[secure]/typescript-zod/issues/108)) ([35cf154](https://github.com/[secure]-[secure]/typescript-zod/commit/35cf154851c235af4f9bfda5a4afb5e3ddba1566))
+* **deps:** bump @[secure]/parser from 1.2.58 to 1.2.60 ([#109](https://github.com/[secure]-[secure]/typescript-zod/issues/109)) ([3e0dd5d](https://github.com/[secure]-[secure]/typescript-zod/commit/3e0dd5dfe71fd473ad37a379e8701bdbcfd39dd2))
+
 ## [1.0.16](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.15...v1.0.16) (2026-08-14)
 
 
