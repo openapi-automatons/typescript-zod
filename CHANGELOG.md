@@ -1,3 +1,11 @@
+## [1.0.22](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.21...v1.0.22) (2026-08-28)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 26.2.0 to 26.3.0 ([#116](https://github.com/[secure]-[secure]/typescript-zod/issues/116)) ([b7fa0bc](https://github.com/[secure]-[secure]/typescript-zod/commit/b7fa0bc5c9ca9a3486897128d3f32506208a389e))
+* **deps-dev:** bump typescript-eslint from 8.67.0 to 8.68.0 ([#117](https://github.com/[secure]-[secure]/typescript-zod/issues/117)) ([75ac8a4](https://github.com/[secure]-[secure]/typescript-zod/commit/75ac8a42fc3f8618fc1dd82a1dedf5f9433f61d7))
+
 ## [1.0.21](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.20...v1.0.21) (2026-08-28)
 
 
