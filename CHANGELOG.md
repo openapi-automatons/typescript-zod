@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.23...v1.0.24) (2026-08-31)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump @types/node from 26.3.0 to 26.4.0 ([#119](https://github.com/[secure]-[secure]/typescript-zod/issues/119)) ([115905c](https://github.com/[secure]-[secure]/typescript-zod/commit/115905cf7d678ed6ad15c0abaf5985a470595d75))
+
 ## [1.0.23](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.22...v1.0.23) (2026-08-28)
 
 
