@@ -1,3 +1,10 @@
+## [1.0.32](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.31...v1.0.32) (2026-11-03)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump eslint from 10.13.0 to 10.14.0 ([#171](https://github.com/[secure]-[secure]/typescript-zod/issues/171)) ([dda8406](https://github.com/[secure]-[secure]/typescript-zod/commit/dda8406b26fb65c0a49432c08a8d0382e1df7d77))
+
 ## [1.0.31](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.30...v1.0.31) (2026-11-03)
 
 
