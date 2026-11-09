@@ -1,3 +1,11 @@
+## [1.0.35](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.34...v1.0.35) (2026-11-09)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump vite from 8.3.5 to 8.3.6 ([#174](https://github.com/[secure]-[secure]/typescript-zod/issues/174)) ([2973d5b](https://github.com/[secure]-[secure]/typescript-zod/commit/2973d5bb67c36aa41a7a079ef159a994ab3187fa))
+* **deps:** bump @[secure]/parser from 1.2.74 to 1.2.76 ([#175](https://github.com/[secure]-[secure]/typescript-zod/issues/175)) ([d860820](https://github.com/[secure]-[secure]/typescript-zod/commit/d860820c27b030b63a0868143c9c5c34a30a3007))
+
 ## [1.0.34](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.33...v1.0.34) (2026-11-06)
 
 
