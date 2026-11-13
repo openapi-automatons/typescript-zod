@@ -1,3 +1,10 @@
+## [1.0.38](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.37...v1.0.38) (2026-11-13)
+
+
+### Bug Fixes
+
+* **deps-dev:** bump vite from 8.3.6 to 8.3.7 ([#180](https://github.com/[secure]-[secure]/typescript-zod/issues/180)) ([f7d8300](https://github.com/[secure]-[secure]/typescript-zod/commit/f7d830010283dd38ae30c0a938db936e85240a53))
+
 ## [1.0.37](https://github.com/[secure]-[secure]/typescript-zod/compare/v1.0.36...v1.0.37) (2026-11-13)
 
 
